@@ -20,9 +20,9 @@ jobs:
 
       - name: Download Stats Images
         run: |
-          curl -o main-stats.svg "https://github-readme-stats.vercel.app/api?username=LilDuong&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&count_private=true"
-          curl -o streak-stats.svg "https://streak-stats.demolab.com/?user=LilDuong&theme=tokyonight&hide_border=true&background=0d1117"
-          curl -o top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=LilDuong&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117"
+          curl -o main-stats.svg "https://github-readme-stats.vercel.app/api?username=CasDuongw&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&count_private=true"
+          curl -o streak-stats.svg "https://streak-stats.demolab.com/?user=CasDuongw&theme=tokyonight&hide_border=true&background=0d1117"
+          curl -o top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=CasDuongw&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117"
 
       - name: Commit & Push to Repo
         run: |
